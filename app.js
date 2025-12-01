@@ -1,4 +1,4 @@
-const apiUrl = "http://localhost:3000/products";
+const apiUrl = "http://3.134.94.155:3000/products";
 
 // =======================
 // LISTAR PRODUTOS
@@ -70,3 +70,4 @@ function updateProductPrompt(id, oldName, oldPrice) {
     updateProduct(id, name, price);
   }
 }
+
